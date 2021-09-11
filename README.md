@@ -1,6 +1,7 @@
 # fit
 
 ###### Conjunto de Dados - COVID, FLU, COLD Symptoms - https://janeawsdata.s3.us-east-2.amazonaws.com/large_data.csv
+* Resumo dos dados - 
 
 ###### Questão 1) Implemente 2 ou mais algoritmos com scikit learn para o diagnóstico destas doenças. 
 

@@ -8,6 +8,7 @@
 * KNN - https://github.com/janeptn/fit/blob/main/Scikit_learn_KNN.ipynb
 * SVM - https://github.com/janeptn/fit/blob/main/Scikit_learn_SVM.ipynb
 * Naive Bayes - https://github.com/janeptn/fit/blob/main/Scikit_learn_NV.ipynb
+* Decision Tree - https://github.com/janeptn/fit/blob/main/Scikit_learn_DecisionTree.ipynb
 
 ###### Questão 2) Implemente pelo menos 1 algoritmo classificador com redes neurais em Pytorch ou Tensorflow (Keras não é permitido).
 

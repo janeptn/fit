@@ -3,17 +3,17 @@
 ###### Conjunto de Dados - COVID, FLU, COLD Symptoms - https://www.kaggle.com/walterconway/covid-flu-cold-symptoms
 * Resumo dos dados - https://github.com/janeptn/fit/blob/main/Dataset_Info.ipynb
 
-###### Questão 1) Implemente 2 ou mais algoritmos com scikit learn para o diagnóstico destas doenças. 
+###### 1) Implemente 2 ou mais algoritmos com scikit learn para o diagnóstico destas doenças. 
 
 * KNN - https://github.com/janeptn/fit/blob/main/Scikit_learn_KNN.ipynb
 * SVM - https://github.com/janeptn/fit/blob/main/Scikit_learn_SVM.ipynb
 * Naive Bayes - https://github.com/janeptn/fit/blob/main/Scikit_learn_NV.ipynb
 * Decision Tree - https://github.com/janeptn/fit/blob/main/Scikit_learn_DecisionTree.ipynb
 
-###### Questão 2) Implemente pelo menos 1 algoritmo classificador com redes neurais em Pytorch ou Tensorflow (Keras não é permitido).
+###### 2) Implemente pelo menos 1 algoritmo classificador com redes neurais em Pytorch ou Tensorflow (Keras não é permitido).
 
 * Pytorch - https://github.com/janeptn/fit/blob/main/PyTorch_NN.ipynb
 
-###### Questão 3) Implemente um ensemble dos modelos anteriores, justifique suas escolhas.
+###### 3) Implemente um ensemble dos modelos anteriores, justifique suas escolhas.
 
-###### Questão 4) Avalie o resultado dos experimentos e a acurácia do seu modelo.
+###### 4) Avalie o resultado dos experimentos e a acurácia do seu modelo.

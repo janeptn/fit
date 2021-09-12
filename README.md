@@ -12,6 +12,8 @@
 
 ###### Questão 2) Implemente pelo menos 1 algoritmo classificador com redes neurais em Pytorch ou Tensorflow (Keras não é permitido).
 
+* Pytorch - https://github.com/janeptn/fit/blob/main/PyTorch_NN.ipynb
+
 ###### Questão 3) Implemente um ensemble dos modelos anteriores, justifique suas escolhas.
 
 ###### Questão 4) Avalie o resultado dos experimentos e a acurácia do seu modelo.

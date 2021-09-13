@@ -17,15 +17,27 @@
 ###### 3) Implemente um ensemble dos modelos anteriores, justifique suas escolhas.
 
 * Ensemble implementado através do método de Votação, classe VotingClassifier do Scikit_Learn. 
-* Considera a predição que receber a maior quantidade de votos como a escolhida;
-* A escolha tem como objetivo obter um resultado de classificação que apresente maior robustes, foram selecionados métodos de classificação com características distintas (heterogêneos): 
-
-     - Árvores de Decisao - entropia
-     
-     - Nayve Bayes - probabilístico
-     
-     - KNN - classificador baseado em instâncias
-
 * Esemble - https://github.com/janeptn/fit/blob/main/Scikit_learn_EnsembleVoting.ipynb
 
 ###### 4) Avalie o resultado dos experimentos e a acurácia do seu modelo.
+
+De maneira geral, os métodos de classificação apresentaram acurácia muito parecida ao lidar com o desafio de classificação do conjunto de dados COVID, FLU, COLD Symptoms.
+Analisando os resultados, é possível notar que todos os métodos tiveram dificuldades em lidar com o desbalanceadas das classes, as classes ALLERGY e FLU eram predominantes.
+Nota-se que os métodos Naive Bayes e SVM tiveram melhor desempenho ao classificar as classes minoritárias COVID e COLD em relação a Precisão e Revocação.
+
+Nos testes realizados com o método de Ensemble de Classificadores - VotingClassifier disponível no Scikit_Learn.
+A abordagem Voting, considera a predição que receber a maior quantidade de votos como a escolhida. Com o objetivo de obter um resultado de classificação que apresentasse maior robustes, foram selecionados métodos de classificação com características distintas (heterogêneos): 
+
+     - Árvores de Decisao - entropia
+     - Nayve Bayes - probabilístico
+     - KNN - classificador baseado em instâncias
+     
+Nota-se resultados equivalente ao método Naive Bayes, em especial, ao utilizar a abordagem de Sampling para lidar com o desbalanceamento entre as classes no conjunto de treinamento.
+
+
+
+
+
+
+
+

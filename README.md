@@ -20,10 +20,10 @@
 
 Com o objetivo de obter maior variedade e robustes ao resultado de classificação, foram selecionados métodos de classificação com características distintas: 
 
-     ** Árvores de Decisao - entropia
+     - Árvores de Decisao - entropia
      
-     ** Nayve Bayes - probabilístico
+     - Nayve Bayes - probabilístico
      
-     ** KNN - classificador baseado em instâncias
+     - KNN - classificador baseado em instâncias
 
 ###### 4) Avalie o resultado dos experimentos e a acurácia do seu modelo.

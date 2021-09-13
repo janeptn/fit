@@ -19,8 +19,8 @@
 * Ensemble implementado através do método de Votação, classe VotingClassifier do Scikit_Learn. Considera a predição que receber a maior quantidade de votos (ou a moda), é a escolhida
 
 Com o objetivo de obter maior variedade e robustes ao resultado de classificação, foram selecionados métodos de classificação com características distintas: 
-  -- árvores de decisao - entropia
-  -- nayve bayes - probabilístico
-  -- knn - classificador baseado em instâncias
+     - Árvores de Decisao - entropia
+     - Nayve Bayes - probabilístico
+     - KNN - classificador baseado em instâncias
 
 ###### 4) Avalie o resultado dos experimentos e a acurácia do seu modelo.

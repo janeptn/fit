@@ -22,7 +22,7 @@
 ###### 4) Avalie o resultado dos experimentos e a acurácia do seu modelo.
 
 De maneira geral, os métodos de classificação apresentaram acurácia muito parecida ao lidar com o desafio de classificação do conjunto de dados COVID, FLU, COLD Symptoms.
-Analisando os resultados, é possível notar que todos os métodos tiveram dificuldades em lidar com o desbalanceadas das classes, as classes ALLERGY e FLU eram predominantes.
+Analisando os resultados, é possível notar que todos os métodos tiveram dificuldades em lidar com o desbalanceadas das classes, as classes ALLERGY e FLU são predominantes.
 Nota-se que os métodos Naive Bayes e SVM tiveram melhor desempenho ao classificar as classes minoritárias COVID e COLD em relação a Precisão e Revocação (Matriz de Confusão).
 
 Nos testes realizados com o método de Ensemble de Classificadores - VotingClassifier disponível no Scikit_Learn.

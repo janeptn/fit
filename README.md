@@ -17,6 +17,7 @@
 ###### 3) Implemente um ensemble dos modelos anteriores, justifique suas escolhas.
 
 * Ensemble implementado através do método de Votação, classe VotingClassifier do Scikit_Learn. Considera a predição que receber a maior quantidade de votos (ou a moda), é a escolhida
+
 Com o objetivo de obter maior variedade e robustes ao resultado de classificação, foram selecionados métodos de classificação com características distintas: 
   -- árvores de decisao - entropia
   -- nayve bayes - probabilístico

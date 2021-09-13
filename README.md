@@ -35,8 +35,8 @@ A abordagem Voting, considera a predição que receber a maior quantidade de vot
 Nota-se a acurácia do ensemble equivalente ao método Naive Bayes, em especial, ao utilizar a abordagem de sampling para lidar com o desbalanceamento entre as classes no conjunto de treinamento.
 
 Para implementação do classificador com rede neural foi utilizada a biblioteca Pytorch, nota-se que o desempenho do método pode ser ajustado através dos diversos parâmetro como algoritmos de otimização, função de custo, número de neurônios e camadas, entre outros.
-Na implementação realizada, dado os parâmetros utilizados, nota-se resultados muitos próximos ao método de ensemble em termos de acucária final.
+Na implementação realizada, dado os parâmetros utilizados, os desempenho muito próximo ao método de ensemble implementado, em termos de acucária final.
 
 * Conclusão
 
-Observa-se a importância de ajustes de hiperparâmetros e da tarefa de pré-processamentos - balanceamento das classes do conjunto de treinamento, para obter resultados e melhoria da acurácia dos métodos. Nota-se também a oportunidade de avaliar outros métodos de ensemble e algoritmos de classificação.
+Observa-se a importância de ajustes de hiperparâmetros e da tarefa de pré-processamentos - balanceamento das classes do conjunto de treinamento para obter melhoria na acurácia dos métodos. Nota-se também, a oportunidade de avaliar o desempenho outros métodos de ensemble, combinado com outras opções algoritmos de classificação no desafio de classificação do conjunto de dados.

@@ -17,7 +17,7 @@
 ###### 3) Implemente um ensemble dos modelos anteriores, justifique suas escolhas.
 
 * Ensemble implementado através do método de Votação, classe VotingClassifier do Scikit_Learn. 
-* Esemble - https://github.com/janeptn/fit/blob/main/Scikit_learn_EnsembleVoting.ipynb
+* https://github.com/janeptn/fit/blob/main/Scikit_learn_EnsembleVoting.ipynb
 
 ###### 4) Avalie o resultado dos experimentos e a acurácia do seu modelo.
 

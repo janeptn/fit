@@ -26,4 +26,6 @@
      
      - KNN - classificador baseado em instâncias
 
+* Esemble - https://github.com/janeptn/fit/blob/main/Scikit_learn_EnsembleVoting.ipynb
+
 ###### 4) Avalie o resultado dos experimentos e a acurácia do seu modelo.

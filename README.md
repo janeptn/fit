@@ -23,21 +23,20 @@
 
 De maneira geral, os métodos de classificação apresentaram acurácia muito parecida ao lidar com o desafio de classificação do conjunto de dados COVID, FLU, COLD Symptoms.
 Analisando os resultados, é possível notar que todos os métodos tiveram dificuldades em lidar com o desbalanceadas das classes, as classes ALLERGY e FLU eram predominantes.
-Nota-se que os métodos Naive Bayes e SVM tiveram melhor desempenho ao classificar as classes minoritárias COVID e COLD em relação a Precisão e Revocação.
+Nota-se que os métodos Naive Bayes e SVM tiveram melhor desempenho ao classificar as classes minoritárias COVID e COLD em relação a Precisão e Revocação (Matriz de Confusão).
 
 Nos testes realizados com o método de Ensemble de Classificadores - VotingClassifier disponível no Scikit_Learn.
 A abordagem Voting, considera a predição que receber a maior quantidade de votos como a escolhida. Com o objetivo de obter um resultado de classificação que apresentasse maior robustes, foram selecionados métodos de classificação com características distintas (heterogêneos): 
 
      - Árvores de Decisao - entropia
-     - Nayve Bayes - probabilístico
+     - Naive Bayes - probabilístico
      - KNN - classificador baseado em instâncias
      
-Nota-se resultados equivalente ao método Naive Bayes, em especial, ao utilizar a abordagem de Sampling para lidar com o desbalanceamento entre as classes no conjunto de treinamento.
+Nota-se a acurácia do ensemble equivalente ao método Naive Bayes, em especial, ao utilizar a abordagem de sampling para lidar com o desbalanceamento entre as classes no conjunto de treinamento.
 
+Para implementação do classificador com rede neural foi utilizada a biblioteca Pytorch, nota-se que o desempenho do método pode ser ajustado através dos diversos parâmetro como algoritmos de otimização, função de custo, número de neurônios e camadas, entre outros.
+Na implementação realizada, dado os parâmetros utilizados, nota-se resultados muitos próximos ao método de ensemble em termos de acucária final.
 
+* Conclusão
 
-
-
-
-
-
+Observa-se a importância de ajustes de hiperparâmetros e da tarefa de pré-processamentos - balanceamento das classes do conjunto de treinamento, para obter resultados e melhoria da acurácia dos métodos. Nota-se também a oportunidade de avaliar outros métodos de ensemble e algoritmos de classificação.

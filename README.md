@@ -18,7 +18,7 @@
 
 * Ensemble implementado através do método de Votação, classe VotingClassifier do Scikit_Learn. 
 * Considera a predição que receber a maior quantidade de votos como a escolhida;
-* A escolha tem como objetivo obter o resultado de classificação que apresente maior robustes, foram selecionados métodos de classificação com características distintas (heterogêneos): 
+* A escolha tem como objetivo obter um resultado de classificação que apresente maior robustes, foram selecionados métodos de classificação com características distintas (heterogêneos): 
 
      - Árvores de Decisao - entropia
      
